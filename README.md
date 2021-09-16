@@ -6,7 +6,7 @@ Benchmarking Subset Selection in Evolutionary Multi-objective Optimization
 
 The candidate solution sets on Pareto fronts are in **Data/PF**. The candidate solution sets from EMO algorithms are in **Data/EMOA**
 
-#### Subset Selection Method 
+#### Subset Selection Methods 
 
 | Method  | Files               |
 | ------- | ------------------- |
@@ -21,17 +21,14 @@ The candidate solution sets on Pareto fronts are in **Data/PF**. The candidate s
 | RVSS-PD | selSolRVSS_PD.m     |
 | RVSS-AD | selSolRVSS_AD.m     |
 
-#### Performance metric
+#### Performance metrics
 
 - newHV.m, newIGD.m, newIGDp.m are used for the  candidate solution sets from EMO algorithms.
 - HV.m, IGD.m, IGDp.m are used for the candidate solution sets on Pareto fronts.
 - uniformLevel.m is used for both sets.
 
-#### Experiment Reuslt
+#### Experimental Results
 
-- The experiemnt results are saved in **Result/PF** and **Result/EMOA**.
+- The selected subsets are saved in **Result/PF** and **Result/EMOA**.
 - The naming rule is **Subset Selection Method** **Name** _ **Candidate Solution Set Name**  _  **Random Seed**.
-- The organized tables are in **Table/PF** and **Table/EMOA**.
-
-
-
+- The tables are in **Table/PF** and **Table/EMOA**.
