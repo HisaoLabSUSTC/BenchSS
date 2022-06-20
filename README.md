@@ -1,12 +1,13 @@
 # BenchSS
 
-Benchmarking Subset Selection in Evolutionary Multi-objective Optimization
+Benchmarking Subset Selection from Large Candidate Solution Sets in Evolutionary Multi-objective Optimization
 
 #### Candidate Solution Sets
 
-The candidate solution sets on Pareto fronts are in **Data/PF**. The candidate solution sets from EMO algorithms are in **Data/EMOA**
+- The whole test suite is available at https://github.com/HisaoLabSUSTC/BenchWhole
+- The small test suite is available at https://github.com/HisaoLabSUSTC/BenchSmall
 
-#### Subset Selection Methods 
+#### Subset Selection Algorithms 
 
 | Method  | Files               |
 | ------- | ------------------- |
@@ -20,12 +21,14 @@ The candidate solution sets on Pareto fronts are in **Data/PF**. The candidate s
 | CSS-MED | K_medoid_S.m        |
 | RVSS-PD | selSolRVSS_PD.m     |
 | RVSS-AD | selSolRVSS_AD.m     |
+| POHSS   |      |
+| POIGDSS |      |
+| POIGD+SS |      |
 
-#### Performance metrics
+#### Performance indicators
 
 - newHV.m, newIGD.m, newIGDp.m are used for the  candidate solution sets from EMO algorithms.
 - HV.m, IGD.m, IGDp.m are used for the candidate solution sets on Pareto fronts.
-- uniformLevel.m is used for both sets.
 
 #### Experimental Results
 
