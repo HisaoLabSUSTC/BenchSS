@@ -21,9 +21,9 @@ Benchmarking Subset Selection from Large Candidate Solution Sets in Evolutionary
 | CSS-MED | K_medoid_S.m        |
 | RVSS-PD | selSolRVSS_PD.m     |
 | RVSS-AD | selSolRVSS_AD.m     |
-| POHSS   |      |
-| POIGDSS |      |
-| POIGD+SS |      |
+| POHSS   | POHVSS.m            |
+| POIGDSS | POIGDSS.m           |
+| POIGD+SS| POIGDpSS.m          |
 
 #### Performance indicators
 
