@@ -4,8 +4,8 @@ Benchmarking Subset Selection from Large Candidate Solution Sets in Evolutionary
 
 #### Candidate Solution Sets
 
-- The whole test suite is available at https://github.com/HisaoLabSUSTC/BenchWhole
-- The small test suite is available at https://github.com/HisaoLabSUSTC/BenchSmall
+- The whole test suite is available at https://www.jianguoyun.com/p/DUlauD0QmoWmChjgsMwEIAA
+- The small test suite is available at https://www.jianguoyun.com/p/DQo2_yUQmoWmChi5sMwEIAA
 
 #### Subset Selection Algorithms 
 
